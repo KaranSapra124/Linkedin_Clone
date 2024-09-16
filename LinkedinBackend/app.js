@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin:['https://66e7fb6b77c5c9007c747e4f--demoli12321.netlify.app/','https://66e7fb6b77c5c9007c747e4f--demoli12321.netlify.app/'],
+    origin:['https://66e7fb6b77c5c9007c747e4f--demoli12321.netlify.app/','https://66e7fb6b77c5c9007c747e4f--demoli12321.netlify.app/','https://66e7fd3194e4b1fcb71c41cf--demoli12321.netlify.app/','https://66e7fd3194e4b1fcb71c41cf--demoli12321.netlify.app'],
     credentials:true
   })
 );
