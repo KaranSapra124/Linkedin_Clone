@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: '*',
+    origin: 'https://66e7eff786e6b7ee756b49d1--cool-blini-e6b34a.netlify.app',
     credentials:true
   })
 );
