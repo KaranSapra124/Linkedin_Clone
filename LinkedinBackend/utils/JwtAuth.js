@@ -8,6 +8,7 @@ exports.genToken = (id) => {
 
 exports.authToken = async (req, res, next) => {
   const { userLinkedin } = req.cookies;
+  console.log(userLinkedin,'LINKEDIN');
   const userId = jwt.decode(userLinkedin);
   const userData = await User.findById(userId)
   .populate({
